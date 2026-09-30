@@ -214,7 +214,7 @@ export default function StartProjectMini({ activeColor }: { activeColor: string 
                   />
                 </div>
 
-                <div className="start-mini-field">
+                <div className="start-mini-field w-full">
                   <label htmlFor="mini-budget">Estimated Budget</label>
                   <select
                     id="mini-budget"
