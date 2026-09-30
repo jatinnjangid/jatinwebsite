@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const QUICK_LINKS = [
   { label: 'Home', href: '#' },
@@ -37,15 +37,6 @@ const SOCIALS = [
 ];
 
 export default function FooterSection({ activeColor, onScrollToSection }: { activeColor: string, onScrollToSection: (id: string) => void }) {
-  const [showTop, setShowTop] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setShowTop(window.scrollY > 500);
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
-  const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   const grad = { background: `linear-gradient(135deg, ${activeColor}, #7C3AED)` };
 
   return (
@@ -172,25 +163,6 @@ export default function FooterSection({ activeColor, onScrollToSection }: { acti
         </div>
       </footer>
 
-      {/* Back to top */}
-      <AnimatePresence>
-        {showTop && (
-          <motion.button
-            className="ft-back-top"
-            style={grad}
-            onClick={scrollTop}
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.5 }}
-            transition={{ type: 'spring', stiffness: 400, damping: 25 }}
-            whileHover={{ scale: 1.15, boxShadow: `0 8px 32px ${activeColor}60` }}
-            whileTap={{ scale: 0.9 }}
-            aria-label="Back to top"
-          >
-            ↑
-          </motion.button>
-        )}
-      </AnimatePresence>
     </>
   );
 }
