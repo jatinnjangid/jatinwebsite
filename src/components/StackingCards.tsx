@@ -167,7 +167,7 @@ function ProjectCard({ project, i, progress, range, targetScale, activeColor }: 
             >
               {project.ctaText}
             </a>
-            {project.githubUrl && (
+            {project.githubUrl && project.githubUrl !== project.liveUrl && (
               <a
                 href={project.githubUrl}
                 target="_blank"
