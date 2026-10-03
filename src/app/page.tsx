@@ -503,7 +503,7 @@ export default function Home() {
               Hire Me / Let&apos;s Work Together
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=141wwqVCfidnsv5iwHF2wbZaSarzLvSmF"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 font-semibold px-8 py-4 border-2 transition-all duration-300 magnetic-target backdrop-blur-sm hover:scale-105 btn btn-ghost"
@@ -603,7 +603,7 @@ export default function Home() {
           <div className="section-head">
             <div className="section-label" style={{ color: activeColor }}>Selected Work &amp; Case Studies</div>
             <h2>Things I&apos;ve Shipped</h2>
-            <p className="section-desc">Production applications, enterprise dashboards, and full-stack systems solving real business challenges.</p>
+            <p className="section-desc">Production applications, operations dashboards, and full-stack systems solving real business challenges.</p>
           </div>
 
           {/* Stacking Cards Deck Effect */}

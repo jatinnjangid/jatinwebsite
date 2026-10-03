@@ -30,11 +30,11 @@ const KNOWLEDGE_BASE = [
     ],
   },
   {
-    keywords: ["project", "projects", "work", "portfolio", "case study", "apps", "lookmyholidays", "crm", "studypoint", "sahkarigig", "as classes"],
-    answer: "Here are some of my featured live products:\n1. **LookMyHolidays**: Full-scale travel agency platform with dynamic SEO & live booking flows.\n2. **Enterprise CRM Dashboard**: Role-based internal SSR dashboard built with TanStack Start & Nitro.\n3. **Studypoint SaaS**: Multi-tenant student accommodation management platform.\n4. **SahkariGig**: Collaborative gig economy portal with verified bidding.\n5. **Logo-Motion AI**: Motion design web tool converting vector SVGs into animated assets.\n6. **AS Classes**: Modern coaching catalog & enrollment web platform.",
+    keywords: ["project", "projects", "work", "portfolio", "case study", "apps", "lookmyholidays", "crm", "studypoint", "as classes"],
+    answer: "Here are some of my featured live products:\n1. **LookMyHolidays**: Full-scale travel agency platform with dynamic SEO & live booking flows.\n2. **Look My Holiday Operations CRM**: Internal SSR operations dashboard built with TanStack Start & Nitro for travel booking pipelines.\n3. **Studypoint SaaS**: Multi-tenant student accommodation management platform.\n4. **AS Classes**: Modern coaching catalog & enrollment web platform.\n5. **Logo-Motion**: Interactive motion design tool converting SVGs into animated assets.",
     actions: [
       { label: "Explore Case Studies", actionType: "scroll-projects" },
-      { label: "GitHub Profile", url: "https://github.com/jatinjangid80" },
+      { label: "GitHub Profile", url: "https://github.com/jatinnjangid" },
     ],
   },
   {
@@ -47,7 +47,7 @@ const KNOWLEDGE_BASE = [
   },
   {
     keywords: ["contact", "hire", "email", "reach", "whatsapp", "call", "message", "talk", "touch"],
-    answer: "Let's connect! You can reach me directly via:\n• **WhatsApp**: [+91 7340098982](https://wa.me/917340098982)\n• **Email**: [jatinnjangid72973@gmail.com](mailto:jatinnjangid72973@gmail.com)\n• **LinkedIn**: [linkedin.com/in/jatin-jangid](https://linkedin.com/)\n• **GitHub**: [github.com/jatinjangid80](https://github.com/jatinjangid80)",
+    answer: "Let's connect! You can reach me directly via:\n• **WhatsApp**: [+91 7340098982](https://wa.me/917340098982)\n• **Email**: [jatinnjangid72973@gmail.com](mailto:jatinnjangid72973@gmail.com)\n• **LinkedIn**: [linkedin.com/in/jatinnjangid](https://www.linkedin.com/in/jatinnjangid/)\n• **GitHub**: [github.com/jatinnjangid](https://github.com/jatinnjangid)",
     actions: [
       { label: "WhatsApp Direct", url: "https://wa.me/917340098982" },
       { label: "Send Message", actionType: "scroll-contact" },

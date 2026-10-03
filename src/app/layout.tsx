@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jatinwebsite-gamma.vercel.app"),
+  metadataBase: new URL("https://jatinjangid.vercel.app"),
   title: "Jatin Jangid | Full Stack Web Developer — Portfolio & Freelance Services",
   description: "Jatin Jangid is a full-stack web developer and 3rd-year B.Tech engineering student building modern websites, web applications, CRM dashboards, and business tools that turn ideas into working products.",
   keywords: [
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     "Jaipur Web Developer",
     "Node.js Developer"
   ],
-  authors: [{ name: "Jatin Jangid", url: "https://github.com/jatinjangid80" }],
+  authors: [{ name: "Jatin Jangid", url: "https://github.com/jatinnjangid" }],
   creator: "Jatin Jangid",
   openGraph: {
     title: "Jatin Jangid | Full Stack Web Developer",
     description: "I build modern, responsive web applications, business tools, and digital experiences that turn ideas into working products.",
-    url: "https://jatinwebsite-gamma.vercel.app/",
+    url: "https://jatinjangid.vercel.app/",
     siteName: "Jatin Jangid Portfolio",
     locale: "en_US",
     type: "website",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jatin Jangid | Full Stack Web Developer",
     description: "Full-stack developer building modern web apps, CRM dashboards, and freelance web solutions.",
-    creator: "@jatinjangid80",
+    creator: "@jatin_jangid80",
   },
   robots: {
     index: true,
@@ -60,7 +60,7 @@ const jsonLd = {
   "@type": "Person",
   "name": "Jatin Jangid",
   "jobTitle": "Full Stack Web Developer",
-  "url": "https://jatinwebsite-gamma.vercel.app",
+  "url": "https://jatinjangid.vercel.app",
   "email": "jatinnjangid72973@gmail.com",
   "address": {
     "@type": "PostalAddress",
@@ -69,8 +69,10 @@ const jsonLd = {
     "addressCountry": "India"
   },
   "sameAs": [
-    "https://github.com/jatinjangid80",
-    "https://linkedin.com",
+    "https://github.com/jatinnjangid",
+    "https://www.linkedin.com/in/jatinnjangid/",
+    "https://x.com/jatin_jangid80",
+    "https://www.instagram.com/jatinnjangid/",
     "https://wa.me/917340098982"
   ],
   "knowsAbout": [

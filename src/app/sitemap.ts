@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://jatinwebsite-gamma.vercel.app';
+  const baseUrl = 'https://jatinjangid.vercel.app';
   return [
     {
       url: baseUrl,

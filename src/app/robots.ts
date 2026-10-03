@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://jatinwebsite-gamma.vercel.app/sitemap.xml',
+    sitemap: 'https://jatinjangid.vercel.app/sitemap.xml',
   };
 }

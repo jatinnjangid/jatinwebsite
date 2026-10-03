@@ -112,7 +112,7 @@ export default function ContactSection({ activeColor }: { activeColor: string })
               <span className="cp-heading-grad" style={grad}>Let&apos;s build it.</span>
             </motion.h2>
             <motion.p variants={itemV} className="cp-desc">
-              Whether you need a full-stack web application, a business website, an enterprise CRM, or speed optimization — let&apos;s turn your requirements into a working solution.
+              Whether you need a full-stack web application, a business website, an operations CRM, or speed optimization — let&apos;s turn your requirements into a working solution.
             </motion.p>
             <motion.div variants={itemV} className="cp-info-grid">
               {INFO_CARDS.map(c=>(

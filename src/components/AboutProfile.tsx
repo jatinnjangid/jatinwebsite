@@ -39,7 +39,7 @@ export default function AboutProfile({ activeColor, onScrollToSection }: AboutPr
 
             <p className="about-text">
               Instead of sticking to toy demo apps, I spend my time designing, engineering, and launching production 
-              software — including enterprise CRM platforms (like <em>Look My Holiday CRM</em>), dynamic booking portals, 
+              software — including operations CRM dashboards (like <em>Look My Holiday CRM</em>), dynamic booking portals, 
               and multi-tenant SaaS tools.
             </p>
 
@@ -77,7 +77,7 @@ export default function AboutProfile({ activeColor, onScrollToSection }: AboutPr
                 Let&apos;s Work Together &rarr;
               </button>
               <a
-                href="https://github.com/jatinjangid80"
+                href="https://github.com/jatinnjangid"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-ghost inline-flex items-center gap-2 px-5 py-3 rounded-lg font-semibold border transition-all magnetic-target"
