@@ -42,6 +42,18 @@ export const PROJECTS_DATA: ProjectItem[] = [
     ctaText: 'Visit Live Site',
   },
   {
+    title: 'SahkariGig Platform',
+    status: 'Hackathon Prototype (SIH26089)',
+    description: 'A collaborative workforce and gig marketplace prototype engineered for Smart India Hackathon (SIH26089), connecting skilled local service workers with cooperative job listings.',
+    problem: 'Informal local service providers face steep middleman commissions, fragmented gig listings, and lack of verified digital credentials.',
+    solution: 'Engineered a full-stack Next.js and Supabase prototype with Google OAuth, live gig listings, bid submissions, and direct cooperative contract workflows.',
+    result: 'Built and submitted as a working hackathon prototype (SIH26089); live deployment on Vercel with 160+ commits and active Supabase RLS database.',
+    stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase', 'PostgreSQL'],
+    liveUrl: 'https://sahkari-gig.vercel.app',
+    githubUrl: 'https://github.com/jatinnjangid/SahkariGig',
+    ctaText: 'Visit Live Prototype',
+  },
+  {
     title: 'Studypoint SaaS',
     status: 'Multi-Tenant SaaS',
     description: 'Hostel and PG accommodation management SaaS enabling landlords to track room occupancies, automate rent dues, and manage student allocations.',

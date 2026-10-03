@@ -30,8 +30,8 @@ const KNOWLEDGE_BASE = [
     ],
   },
   {
-    keywords: ["project", "projects", "work", "portfolio", "case study", "apps", "lookmyholidays", "crm", "studypoint", "as classes"],
-    answer: "Here are some of my featured live products:\n1. **LookMyHolidays**: Full-scale travel agency platform with dynamic SEO & live booking flows.\n2. **Look My Holiday Operations CRM**: Internal SSR operations dashboard built with TanStack Start & Nitro for travel booking pipelines.\n3. **Studypoint SaaS**: Multi-tenant student accommodation management platform.\n4. **AS Classes**: Modern coaching catalog & enrollment web platform.\n5. **Logo-Motion**: Interactive motion design tool converting SVGs into animated assets.",
+    keywords: ["project", "projects", "work", "portfolio", "case study", "apps", "lookmyholidays", "crm", "studypoint", "sahkarigig", "as classes"],
+    answer: "Here are some of my featured projects:\n1. **LookMyHolidays**: Production travel agency platform with dynamic SEO & live booking flows.\n2. **Look My Holiday Operations CRM**: Internal SSR operations dashboard built with TanStack Start & Nitro for travel booking pipelines.\n3. **SahkariGig**: Smart India Hackathon (SIH26089) cooperative workforce prototype built with Next.js & Supabase.\n4. **Studypoint SaaS**: Multi-tenant student accommodation management platform.\n5. **AS Classes**: Modern coaching catalog & enrollment web platform.\n6. **Logo-Motion**: Interactive motion design tool converting SVGs into animated assets.",
     actions: [
       { label: "Explore Case Studies", actionType: "scroll-projects" },
       { label: "GitHub Profile", url: "https://github.com/jatinnjangid" },
