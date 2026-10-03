@@ -231,7 +231,7 @@ export default function ContactSection({ activeColor }: { activeColor: string })
                         {values.privacy&&<svg viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" strokeWidth="1.8" strokeLinecap="round"/></svg>}
                       </div>
                       <input type="hidden" name="privacy" value={values.privacy?'true':'false'}/>
-                      <span className="cf-privacy-text">I agree to the <a href="#" className="cf-privacy-link" style={{color:activeColor}}>privacy policy</a></span>
+                      <span className="cf-privacy-text">I agree to the <a href="/privacy" target="_blank" rel="noopener noreferrer" className="cf-privacy-link" style={{color:activeColor}}>privacy policy</a></span>
                     </label>
                     <AnimatePresence>{errors.privacy&&<motion.p className="cf-error" initial={{opacity:0,y:-4}} animate={{opacity:1,y:0}} exit={{opacity:0}}>⚠ {errors.privacy}</motion.p>}</AnimatePresence>
                   </div>
